@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension version="3.0" type="template" client="site">
+  <name>companylogo</name>
+  <description>TPL_COMPANYLOGO_DESC</description>
+  <version>1.1.0</version>
+  <creationDate>June 2014</creationDate>
+  <author>Nariman</author>
+  <authorEmail>sagiden13@gmail.com</authorEmail>
+  <authorUrl>http://site.ru</authorUrl>
+  <license>TPL_COMPANYLOGO_LICENSE</license>
+  <copyright>TPL_COMPANYLOGO_COPY</copyright>
+
+  <files>
+    <filename>index.html</filename>
+    <filename>index.php</filename>
+    <filename>template_preview.png</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>templateDetails.xml</filename>
+  
+    <folder>css</folder>
+    <folder>html</folder>
+    <folder>img</folder>
+    <folder>js</folder>
+  </files>
+
+  <positions>
+    <position>position-0</position>
+    <position>position-1</position>
+    <position>position-2</position>
+  </positions>
+
+  <languages folder="language">
+    <language tag="ru-RU">ru-RU/ru-RU.tpl_companylogo.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.tpl_companylogo.sys.ini</language>
+
+    <language tag="en-GB">en-GB/en-GB.tpl_companylogo.ini</language>
+    <language tag="en-GB">en-GB/en-GB.tpl_companylogo.sys.ini</language>
+
+  </languages>
+</extension>
